@@ -1,0 +1,217 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Red Roof Inn Hotel Design System - Luxurious & Elegant
+All colors MUST be HSL for consistency.
+*/
+
+@layer base {
+  :root {
+    /* Core Brand Colors */
+    --background: 28 25% 97%;
+    --foreground: 25 15% 15%;
+
+    /* Card & Surface Colors */
+    --card: 0 0% 100%;
+    --card-foreground: 25 15% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 25 15% 15%;
+
+    /* Primary - Deep Burgundy */
+    --primary: 0 65% 35%;
+    --primary-foreground: 0 0% 98%;
+    --primary-hover: 0 65% 30%;
+
+    /* Secondary - Warm Beige */
+    --secondary: 35 20% 88%;
+    --secondary-foreground: 25 15% 15%;
+
+    /* Muted - Soft Neutrals */
+    --muted: 32 15% 92%;
+    --muted-foreground: 25 8% 45%;
+
+    /* Accent - Warm Gold */
+    --accent: 45 70% 60%;
+    --accent-foreground: 25 15% 15%;
+
+    /* Luxury Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(0 65% 35%), hsl(15 55% 40%));
+    --gradient-warm: linear-gradient(180deg, hsl(35 20% 88%), hsl(28 25% 97%));
+    --gradient-elegant: linear-gradient(45deg, hsl(0 0% 100%), hsl(32 15% 92%));
+
+    /* Shadows & Effects */
+    --shadow-luxury: 0 10px 40px -10px hsl(0 65% 35% / 0.3);
+    --shadow-elegant: 0 4px 20px -4px hsl(25 15% 15% / 0.1);
+    --shadow-warm: 0 8px 25px -8px hsl(45 70% 60% / 0.2);
+
+    /* Borders & Inputs */
+    --border: 32 15% 85%;
+    --input: 32 15% 90%;
+    --ring: 0 65% 35%;
+
+    /* Destructive */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  /* Dark theme - Sophisticated Hotel Evening Mode */
+  .dark {
+    --background: 20 15% 8%;
+    --foreground: 35 20% 88%;
+
+    --card: 20 15% 10%;
+    --card-foreground: 35 20% 88%;
+
+    --popover: 20 15% 10%;
+    --popover-foreground: 35 20% 88%;
+
+    --primary: 0 65% 45%;
+    --primary-foreground: 0 0% 98%;
+    --primary-hover: 0 65% 40%;
+
+    --secondary: 25 15% 18%;
+    --secondary-foreground: 35 20% 88%;
+
+    --muted: 25 15% 15%;
+    --muted-foreground: 32 10% 60%;
+
+    --accent: 45 70% 55%;
+    --accent-foreground: 20 15% 8%;
+
+    --border: 25 15% 20%;
+    --input: 25 15% 18%;
+    --ring: 0 65% 45%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  /* Custom scrollbar for luxury feel */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-muted/30;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-primary/20 rounded-full;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-primary/40;
+  }
+}
+
+@layer components {
+  /* Luxury Button Styles */
+  .btn-luxury {
+    @apply bg-gradient-to-r from-primary to-primary-hover text-primary-foreground px-8 py-3 rounded-lg font-medium shadow-luxury hover:shadow-xl transition-all duration-300 hover:scale-105;
+  }
+
+  .btn-elegant {
+    @apply bg-white/90 backdrop-blur text-foreground border border-border hover:bg-white hover:shadow-elegant transition-all duration-300 px-6 py-2.5 rounded-lg;
+  }
+
+  /* Text Styles */
+  .text-luxury {
+    @apply bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent font-bold;
+  }
+
+  /* Card Styles */
+  .card-elegant {
+    @apply bg-white/80 backdrop-blur border border-border/50 rounded-xl shadow-elegant hover:shadow-luxury transition-all duration-500;
+  }
+
+  /* Hero Section */
+  .hero-gradient {
+    background: var(--gradient-hero);
+  }
+
+  .hero-overlay {
+    background: linear-gradient(135deg, hsl(0 0% 0% / 0.4), hsl(0 0% 0% / 0.1));
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.8s ease-out forwards;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.6s ease-out forwards;
+  }
+
+  .animate-scale-in {
+    animation: scaleIn 0.5s ease-out forwards;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes scaleIn {
+    from {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+}
