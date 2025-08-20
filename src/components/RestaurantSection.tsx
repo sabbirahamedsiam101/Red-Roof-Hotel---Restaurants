@@ -1,7 +1,7 @@
 import { ChefHat, Clock, Award, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import restaurantImage from '@/assets/restaurant-interior.png';
+import restaurantImage from '@/assets/restaurant-interior.jpg';
 
 const RestaurantSection = () => {
   const highlights = [

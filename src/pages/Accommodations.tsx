@@ -7,7 +7,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from 
 import { Badge } from '@/components/ui/badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Wifi, Car, Coffee, Bed, Users, Gamepad2, Utensils, Bath, Tv, Wind } from 'lucide-react';
-import luxuryRoom from '@/assets/luxury-room.png';
+import luxuryRoom from '@/assets/luxury-room.jpg';
 
 const Accommodations = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');

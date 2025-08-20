@@ -11,7 +11,7 @@ import { Calendar } from '@/components/ui/calendar';
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
 import { Calendar as CalendarIcon, Users, Utensils, Car, Wifi, Tv, Check } from 'lucide-react';
 import { format } from 'date-fns';
-import restaurantInterior from '@/assets/restaurant-interior.png';
+import restaurantInterior from '@/assets/restaurant-interior.jpg';
 
 const Events = () => {
   const [selectedDate, setSelectedDate] = useState<Date>();

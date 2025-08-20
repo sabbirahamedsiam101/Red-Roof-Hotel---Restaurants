@@ -1,7 +1,7 @@
 import { Bed, Wifi, Car, Coffee, Star } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import luxuryRoom from '@/assets/luxury-room.png';
+import luxuryRoom from '@/assets/luxury-room.jpg';
 
 const FeaturedRooms = () => {
   const rooms = [

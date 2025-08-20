@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
 import { Clock, Users, Star } from 'lucide-react';
-import restaurantInterior from '@/assets/restaurant-interior.png';
+import restaurantInterior from '@/assets/restaurant-interior.jpg';
 
 const Restaurants = () => {
   const featuredDishes = [

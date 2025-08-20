@@ -5,9 +5,9 @@ import { Button } from '@/components/ui/button';
 import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
 import { Badge } from '@/components/ui/badge';
 import { X, Instagram, Camera } from 'lucide-react';
-import luxuryRoom from '@/assets/luxury-room.png';
-import restaurantInterior from '@/assets/restaurant-interior.png';
-import heroHotel from '@/assets/hero-hotel.png';
+import luxuryRoom from '@/assets/luxury-room.jpg';
+import restaurantInterior from '@/assets/restaurant-interior.jpg';
+import heroHotel from '@/assets/hero-hotel.jpg';
 
 const Gallery = () => {
   const [selectedFilter, setSelectedFilter] = useState('all');
