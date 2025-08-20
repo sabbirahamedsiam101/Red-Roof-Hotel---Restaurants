@@ -1,66 +1,84 @@
-🏨 Red Roof Inn Hotel & Restaurants
 
-A modern, responsive hotel website built with React, TypeScript, Tailwind CSS, Framer Motion, and shadcn-ui.
-This project provides an elegant online presence for Red Roof Inn Hotel & Restaurants in Comilla, Bangladesh, with features like room booking, restaurant showcase, events, and gallery.
+````markdown
+# 🏨 Red Roof Inn Hotel & Restaurants
 
-🌐 Live Demo
+A modern, responsive hotel website built with **React**, **TypeScript**, **Tailwind CSS**, **Framer Motion**, and **shadcn-ui**.  
+This project provides an elegant online presence for **Red Roof Inn Hotel & Restaurants** in Comilla, Bangladesh, with features like room booking, restaurant showcase, events, and gallery.
 
-👉 Visit Live Website
+---
 
-🚀 Features
+## 🌐 Live Demo
 
-🛎 Online Booking System – Check availability and reserve rooms.
+👉 [Visit Live Website](#)
 
-🏨 Accommodations Page – Showcase of rooms, suites, hall rooms, and kids’ zone.
+---
 
-🍽 Restaurants & Juice Bar – Featured dishes, drinks, and dining experience.
+## 🚀 Features
 
-🎉 Events & Conferences – Event halls, wedding packages, conference services.
+- 🛎 **Online Booking System** – Check availability and reserve rooms.  
+- 🏨 **Accommodations Page** – Showcase of rooms, suites, hall rooms, and kids’ zone.  
+- 🍽 **Restaurants & Juice Bar** – Featured dishes, drinks, and dining experience.  
+- 🎉 **Events & Conferences** – Event halls, wedding packages, conference services.  
+- 🖼 **Gallery** – Masonry-style photo gallery with lightbox & filters.  
+- 📱 **Responsive Design** – Optimized for desktop, mobile, and tablets.  
+- ⚡ **SEO Optimized** – Metadata for better visibility.  
+- 🎨 **Modern UI** – Built with Tailwind CSS + Framer Motion animations.  
 
-🖼 Gallery – Masonry-style photo gallery with lightbox & filters.
+---
 
-📱 Responsive Design – Optimized for desktop, mobile, and tablets.
+## 🛠 Tech Stack
 
-⚡ SEO Optimized – Metadata for better visibility.
+- **Framework:** React + Vite  
+- **Language:** TypeScript  
+- **UI Components:** shadcn-ui  
+- **Styling:** Tailwind CSS  
+- **Animations:** Framer Motion  
+- **Deployment:** Vercel  
 
-🎨 Modern UI – Built with Tailwind + Framer Motion animations.
+---
 
-🛠 Tech Stack
+## 📂 Project Setup
 
-Framework: React
- + Vite
+1. **Clone the repository**
 
-Language: TypeScript
-
-UI Components: shadcn-ui
-
-Styling: Tailwind CSS
-
-Animations: Framer Motion
-
-Deployment: Vercel
-
-📂 Project Setup
-
-Clone the repository and install dependencies:
-
-# Step 1: Clone the repo
+```bash
 git clone <YOUR_GIT_URL>
+````
 
-# Step 2: Navigate to the project folder
+2. **Navigate to the project folder**
+
+```bash
 cd red-roof-hotel-and-restaurants
+```
 
-# Step 3: Install dependencies
+3. **Install dependencies**
+
+```bash
 npm install
+```
 
-# Step 4: Start local development server
+4. **Start local development server**
+
+```bash
 npm run dev
+```
 
-🖥 Deployment
+---
 
-This project is deployed on Vercel.
-You can deploy your own version with one click:
+## 🖥 Deployment
 
-👨‍💻 Developer
+This project is deployed on **Vercel**.
+You can deploy your own version with one click via Vercel dashboard.
 
-Developed by Sabbir at OneSphere Solution.
+---
+
+## 👨‍💻 Developer
+
+Developed by **Sabbir** at **OneSphere Solution**.
+
+```
+
+I can also make a **more polished version with badges, sections for screenshots, and contribution guidelines** if you want it to look more professional for GitHub.  
+
+Do you want me to do that?
+```
