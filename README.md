@@ -1,6 +1,6 @@
 
 ````markdown
-# 🏨 Red Roof Inn Hotel & Restaurants
+## 🏨 Red Roof Inn Hotel & Restaurants
 
 A modern, responsive hotel website built with **React**, **TypeScript**, **Tailwind CSS**, **Framer Motion**, and **shadcn-ui**.  
 This project provides an elegant online presence for **Red Roof Inn Hotel & Restaurants** in Comilla, Bangladesh, with features like room booking, restaurant showcase, events, and gallery.
