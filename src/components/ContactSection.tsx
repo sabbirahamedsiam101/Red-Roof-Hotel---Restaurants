@@ -9,7 +9,7 @@ const ContactSection = () => {
     {
       icon: MapPin,
       title: 'Location',
-      details: ['Malaysia Sadar', 'Malaysia, Bangladesh', 'Post Code: 3500'],
+      details: ['Sylhet Sadar', 'Sylhet, Bangladesh', 'Post Code: 3500'],
     },
     {
       icon: Phone,

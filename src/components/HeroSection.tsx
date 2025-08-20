@@ -32,10 +32,10 @@ const HeroSection = () => {
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-white/90 font-light mb-2">
-            Hotel & Restaurants, Malaysia
+            Hotel & Restaurants, Sylhet
           </p>
           <p className="text-lg text-white/80 max-w-2xl mx-auto">
-            Experience luxury and comfort in the heart of Malaysia. Where elegance meets hospitality.
+            Experience luxury and comfort in the heart of Sylhet. Where elegance meets hospitality.
           </p>
         </div>
 
@@ -101,7 +101,7 @@ const HeroSection = () => {
         {/* Location */}
         <div className="mt-8 flex items-center justify-center text-white/80 animate-fade-in">
           <MapPin className="w-5 h-5 mr-2" />
-          <span>Located in the heart of Malaysia, Bangladesh</span>
+          <span>Located in the heart of Sylhet, Bangladesh</span>
         </div>
       </div>
 

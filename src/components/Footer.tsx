@@ -45,7 +45,7 @@ const Footer = () => {
             </div>
             
             <p className="text-white/70 leading-relaxed">
-              Experience luxury and comfort in the heart of Malaysia. Where elegance meets hospitality, 
+              Experience luxury and comfort in the heart of Sylhet. Where elegance meets hospitality, 
               creating unforgettable memories for our distinguished guests.
             </p>
             
@@ -99,8 +99,8 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-accent mt-0.5" />
                 <div className="text-white/70">
-                  <p>Malaysia Sadar</p>
-                  <p>Malaysia, Bangladesh</p>
+                  <p>Sylhet Sadar</p>
+                  <p>Sylhet, Bangladesh</p>
                   <p>Post Code: 3500</p>
                 </div>
               </div>

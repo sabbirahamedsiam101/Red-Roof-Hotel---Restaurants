@@ -195,7 +195,7 @@ const Gallery = () => {
   const instagramPosts = [
     { id: 1, image: luxuryRoom, likes: '2.3k', caption: 'Luxury at its finest! ✨ #RedRoofInn #LuxuryStay' },
     { id: 2, image: restaurantInterior, likes: '1.8k', caption: 'Dining with elegance 🍽️ #FineDining #Restaurant' },
-    { id: 3, image: heroHotel, likes: '3.1k', caption: 'Welcome to paradise 🏨 #Hotel #Malaysia' },
+    { id: 3, image: heroHotel, likes: '3.1k', caption: 'Welcome to paradise 🏨 #Hotel #Sylhet' },
     { id: 4, image: luxuryRoom, likes: '1.5k', caption: 'Sweet dreams in our cozy rooms 😴 #ComfortStay' },
     { id: 5, image: restaurantInterior, likes: '2.7k', caption: 'Cheers to good times! 🥂 #JuiceBar #Fresh' },
     { id: 6, image: heroHotel, likes: '1.9k', caption: 'Sunset views from our terrace 🌅 #Views' }
@@ -311,7 +311,7 @@ const Gallery = () => {
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
                 Stay connected with our latest updates, special moments, and behind-the-scenes content
               </p>
-              <p className="text-primary font-semibold mt-2">@redroofinnMalaysia</p>
+              <p className="text-primary font-semibold mt-2">@redroofinnSylhet</p>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -344,7 +344,7 @@ const Gallery = () => {
             <div className="text-center mt-12">
               <Button variant="outline" size="lg" className="btn-elegant">
                 <Instagram className="w-5 h-5 mr-2" />
-                Follow @redroofinnMalaysia
+                Follow @redroofinnSylhet
               </Button>
             </div>
           </div>
